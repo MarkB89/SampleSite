@@ -6,7 +6,6 @@
 	display: inline-block;
 	width: 800px;
 	text-align: left;
-
 }
 
 .rounded {
@@ -46,7 +45,7 @@ body {
 	text-align: center;
 }
 
-.main img {
+.main img:not(.button) {
 	border-radius: 15px;
 	width:200px; 
     height: auto;
@@ -54,11 +53,23 @@ body {
     margin-left: 20px;
     display: block;
     border: 6px solid white;
-
-
 }
 
 h1 {
 	font-size: 40px;
 	text-align: center;
 }
+
+.link:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+
+.button{
+	border: none;
+	width: 40px; 
+    height: auto;
+    padding-left: 10px;     
+}
+
